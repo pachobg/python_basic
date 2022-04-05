@@ -1,0 +1,11 @@
+price_per_year = int(input())
+shoes = price_per_year - (price_per_year * 40 / 100)
+basketball_suit = shoes - (shoes * 20 / 100)
+
+ball = basketball_suit / 4
+
+basketball_stuff = ball / 5
+
+total_bill = price_per_year + shoes + basketball_suit + ball + basketball_stuff
+
+print(total_bill)
